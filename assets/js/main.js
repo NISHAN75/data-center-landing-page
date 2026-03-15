@@ -78,6 +78,9 @@
                 }
             });
         });
+        // nice select
+        $('select').niceSelect();
+
 
 	});
 })(jQuery);

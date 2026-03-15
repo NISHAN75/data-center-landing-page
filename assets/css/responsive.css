@@ -27,6 +27,12 @@ Version: 1.0
         transform: skewX(30deg) translateX(99.4%);
     }
     /* comparison section */
+
+    /* technology-comparison section */
+    .technology-comparison .col-lg-6:nth-child(2) .technology-comparison-content {
+        margin-left: 70px;
+    }
+    /* technology-comparison section */
 }
 /* max-width 1399 */
 @media (max-width: 1399.98px) {
@@ -38,6 +44,12 @@ Version: 1.0
         transform: skewX(30deg) translateX(100.4%);
     }
     /* comparison section */
+
+    /* technology-comparison section */
+    .technology-comparison .col-lg-6:nth-child(2) .technology-comparison-content {
+        margin-left: 10px;
+    }
+    /* technology-comparison section */
 }
 
 /* max-width 1199 */
@@ -50,6 +62,28 @@ Version: 1.0
         transform: skewX(30deg) translateX(101.4%);
     }
     /* comparison section */
+
+    /* technology-comparison section */
+    .technology-comparison .col-lg-6:nth-child(2) .technology-comparison-content {
+        margin-left: 0px;
+    }
+    .tc-shape-02 {
+        right: 0px;
+    }
+    .technology-comparison-img-wrapper .tc-img-01 ,
+    .technology-comparison-img-wrapper .tc-img-02 {
+        max-width: 500px;
+    }
+    .tc-shape-01 {
+        left: 0;
+    }
+    .technology-comparison-content {
+        margin-left: 68px;
+    }
+    /* technology-comparison section */
+
+     
+
 
 }
 
@@ -112,8 +146,22 @@ h6{
     margin-bottom: 60px;
 }
 /* comparison section */
- 
 
+/* technology-comparison section */
+.technology-comparison-img-wrapper .tc-img-01, .technology-comparison-img-wrapper .tc-img-02 {
+    max-width: 100%;
+}
+.contact-form-section ,
+.technology-comparison {
+    padding: 70px 0;
+}
+/* technology-comparison section */
+
+/* contact-form-section */
+.contact-form-info.email-input-info {
+    width: auto;
+}
+/* contact-form-section */
 
 }
 
@@ -157,10 +205,38 @@ h3 {
 
 /* max-width 479 */
 @media (max-width: 479.98px) {
-	
+/* data-center section */
 .data-center-section-area {
     padding: 200px 0 70px;
 }
+/* data-center section */
+
+/* technology-comparison section  */
+.tc-shape-01,
+.tc-shape-02{
+    display: none;
+}
+.technology-comparison .col-lg-6:nth-child(2) .technology-comparison-content h5 {
+    padding-right: 0;
+}
+.technology-comparison-content {
+    margin-left: 0;
+}
+.technology-comparison-img-wrapper {
+    margin-bottom: 20px;
+    min-height: auto;
+}
+/* technology-comparison section */
+
+/* contact-form-section */
+.contact-form-wrapper .col {
+    flex: 1 0 100%;
+}
+/* contact-form-section */
+
+
+
+
 }
 
 /* max-width 383 */
