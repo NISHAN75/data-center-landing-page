@@ -9,49 +9,48 @@ Version: 1.0
 /* CSS Index
 -----------------------------------
 1.default css
-2.header section css
-3.banner section css
-4.service section css
-5.market section  css
-6.about us section css
-7.featured section css
-8.cta section css
-9.footer section css
 -----------------------------------
+
 /* min-width 1430 */
 @media (min-width: 1430px) {}
 
+/* min-width 1599 */
+@media (max-width: 1599px) {
+}
+/* min-width 1499 */
+@media (max-width: 1499px) {
+    /* comparison section */
+    .comparison-line-item {
+        transform: skewX(-30deg) translateX(-87%);
+    }
+    .comparison-content-item.content-reverse .comparison-line-item {
+        transform: skewX(30deg) translateX(99.4%);
+    }
+    /* comparison section */
+}
 /* max-width 1399 */
-@media (max-width: 1399.98px) {}
+@media (max-width: 1399.98px) {
+    /* comparison section */
+    .comparison-line-item {
+        transform: skewX(-30deg) translateX(-89%);
+    }
+    .comparison-content-item.content-reverse .comparison-line-item {
+        transform: skewX(30deg) translateX(100.4%);
+    }
+    /* comparison section */
+}
 
 /* max-width 1199 */
 @media (max-width: 1199.98px) {
+    /* comparison section */
+    .comparison-line-item {
+        transform: skewX(-30deg) translateX(-91%);
+    }
+    .comparison-content-item.content-reverse .comparison-line-item {
+        transform: skewX(30deg) translateX(101.4%);
+    }
+    /* comparison section */
 
-	/* offcanvas section css start */
-	.header-ofcanvas::before {
-		display: none;
-	}
-
-	/* offcanvas section css end */
-
-	/* header section css start */
-
-	.right-site-nav {
-		padding-left: 0;
-	}
-
-	.left-site-nav {
-		padding-left: 0px;
-	}
-
-	/* header section css end */
-
-	/* footer section start */
-	.footer-nav-wrapper .row {
-		--bs-gutter-x: 24px;
-	}
-
-	/* footer section end */
 }
 
 /* max-width 1399 - min-width 992*/
@@ -59,257 +58,119 @@ Version: 1.0
 
 /* max-width 991 */
 @media (max-width: 991.98px) {
-	h1 {
-		font-size: 78px;
-	}
-
-	h2 {
-		font-size: 52px;
-	}
-
-  /* offcanvas menu css start*/
-  .offcanvas-body {
-    padding: 0px;
-   }
-  /* offcanvas menu css  end */
-
-  /* market section css start */
-  .market-section {
-    padding-top: 50px;
-    padding-bottom: 50px;
+.capabilities-content-wrapper h1 ,
+h1 {
+	font-size: 60px;
 }
-  /* market section css end */
 
-	/* about us section css start */
-	.popup-btn {
-		height: 140px;
-		width: 140px;
-		border-radius: 140px;
-	}
+h2 {
+	font-size: 54px;
+}
 
-	.inner-play-btn {
-		height: 100px;
-		width: 100px;
-		border-radius: 100px;
-	}
+h3 {
+	font-size: 40px;
+}
 
-	.about-logo {
-		bottom: 20px;
-	}
+h4 {
+	font-size: 36px;
+}
+h5{
+    font-size: 28px;
+}
+h6{
+    font-size: 20px;
+}
+.common-title{
+    font-size: 70px;
+}
+/* header area */
+.header-area {
+    padding: 13px 0;
+}
+/* header area */
 
-	.inner-play-btn img {
-		height: 45px;
-		width: 45px;
-	}
+/* capabilities section */
+.data-center-section-area {
+    padding: 300px 0 100px;
+}
+/* capabilities section */
 
-	/* about us section css end */
-
-
-
-	/* featured section start */
-	.featured-card-wrapper {
-		margin-bottom: 30px;
-	}
-
-	/* featured section end */
-
-	/* footer area section css start */
-	.bottom-footer-area {
-		padding-top: 50px;
-	}
-
-	.bottom-footer-img {
-		margin-bottom: 30px;
-	}
-
-	/* footer area section css end */
+/* comparison section */
+.section-padding {
+    padding: 100px 0;
+}
+.comparison-content-item .col {
+    flex: 1 0 100%;
+}
+.comparison-content-item .row{
+    --bs-gutter-y:30px;
+}
+.comparison-img-wrapper {
+    max-width: 100%;
+}
+.comparison-content-item {
+    margin-bottom: 60px;
+}
+/* comparison section */
+ 
 
 
 }
 
 /* max-width 767 */
 @media (max-width: 767.98px) {
-	h1 {
-		font-size: 68px;
-	}
+.capabilities-content-wrapper h1 ,
+h1 {
+	font-size: 48px;
+}
 
-	h2 {
-		font-size: 44px;
-	}
+h2 {
+	font-size: 44px;
+}
 
-	h3 {
-		font-size: 36px;
-	}
-
-	h4 {
-		font-size: 28px;
-	}
-
-	h5 {
-		font-size: 20;
-	}
-
-	h6 {
-		font-size: 18px;
-	}
-
-	/* banner section css start */
-	.banner-area-section {
-		min-height: 550px;
-	}
-
-	.banner-caption h1 {
-		margin-bottom: 35px;
-	}
-
-	/* banner section css end */
-	/* header section css start */
-	.logo-area {
-		max-width: 150px;
-	}
-
-	/* header section css end*/
-	/* about us section css start */
-	.popup-btn {
-		height: 100px;
-		width: 100px;
-		border-radius: 100px;
-	}
-
-	.inner-play-btn {
-		height: 80px;
-		width: 80px;
-		border-radius: 80px;
-	}
-
-	.about-logo {
-		bottom: 20px;
-		width: 70px;
-	}
-
-	.inner-play-btn img {
-		height: 35px;
-		width: 35px;
-	}
-
-	/* about us section css end */
-
-	/* cta section start */
-	.cta-section {
-		min-height: 400px;
-	}
-
-	/* cta section end */
-
-
-	/* footer section start */
-	.footer-nav-wrapper,
-	.other-link-wrapper {
-		margin-top: 17px;
-	}
-
-	/* footer section end */
+h3 {
+	font-size: 36px;
+}
 }
 
 /* max-width 575 */
 @media (max-width: 575.98px) {
+/* capabilities section */
+.data-center-section-area {
+    padding: 200px 0 100px;
+}
+/* capabilities section */
 
-	/* header section css start */
-	/* offcanvas */
-	.sub-menu {
-		flex-direction: column;
-    margin-bottom: 30px;
-	}
-
-	.sub-menu-inner {
-		margin-right: 0px;
-	}
-
-	.nav-link {
-		font-size: 24px;
-	}
-
-	/* header section css end */
-	/* about us section css start */
-
-	.about-logo {
-		bottom: 10px;
-		width: 50px;
-	}
-
-	/* about us section css end */
-
+/* comparison section */
+.common-title {
+    font-size: 60px;
+}
+.section-padding {
+    padding: 70px 0;
+}
+.comparison-line-item {
+    transform: skewX(-30deg) translateX(-94%);
+}
+/* comparison section */
 
 }
 
 /* max-width 479 */
 @media (max-width: 479.98px) {
-	h1 {
-		font-size: 54px;
-	}
-
-
-	/* header section css start */
-	.logo-area {
-		max-width: 120px;
-	}
-
-	/* offcanvas  start */
-	.offcanvas-nav>li>a {
-		font-size: 70px;
-	}
-
-	.icon-toogle {
-		margin-top: 7px;
-	}
-
-	.icon-toogle.show {
-		margin-top: 7px;
-	}
-
-	.offcanvas-nav.version-2 .nav-link {
-		font-size: 38px;
-	}
-
-	/* offcanvas  end */
-
-
-	/* header section css end*/
-	/* about us section css start */
-	.popup-btn {
-		height: 70px;
-		width: 70px;
-		border-radius: 70px;
-	}
-
-	.inner-play-btn {
-		height: 50px;
-		width: 50px;
-		border-radius: 50px;
-	}
-
-	.about-logo {
-		width: 30px;
-	}
-
-	.inner-play-btn img {
-		height: 20px;
-	}
-
-	/* about us section css end */
-
-
+	
+.data-center-section-area {
+    padding: 200px 0 70px;
+}
 }
 
 /* max-width 383 */
 @media (max-width: 383.98px) {
+.common-title {
+    font-size: 50px;
+}
+.data-center-section-area {
+    padding: 200px 0 50px;
+}
 
-	/* footer section css  start*/
-	.other-link-wrapper ul {
-		flex-direction: column;
-		gap: 5px !important;
-	}
-
-	/* footer section end  */
 
 }
