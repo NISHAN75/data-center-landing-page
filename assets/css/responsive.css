@@ -163,6 +163,17 @@ h6{
 }
 /* contact-form-section */
 
+/* footer section  */
+.footer-area .col {
+    flex: 1 0 100%;
+}
+.footer-area .row {
+    justify-content: center;
+    --bs-gutter-y:20px;
+}
+
+/* footer section  */
+
 }
 
 /* max-width 767 */

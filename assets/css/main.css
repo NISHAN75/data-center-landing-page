@@ -839,6 +839,7 @@ h6 {
     padding-right: 36px;
 	line-height: 46px;
 	background: rgba(39, 39, 42, 0.50);
+	color: rgba(255, 255, 255, 0.80);
 }
 .nice-select:after {
     border-bottom: 0;
@@ -923,3 +924,60 @@ h6 {
     margin-top: 40px;
 }
 /* contact-form-section */
+
+/* footer section */
+.footer-area {
+    background: #01010B;
+    border-top: 1px solid #FFF;
+}
+.footer-top-area {
+    padding: 64px 0 40px;
+}
+.footer-design-content p {
+    font-size: 25px;
+    font-weight: 300;
+}
+/* contact-form-section */
+
+/* footer section  */
+.footer-area .container {
+    max-width: 1300px;
+}
+.footer-area .col:nth-child(2) {
+    max-width: 327px;
+}
+.footer-about-content h6 {
+    font-family: "Acumin Pro",sans-serif;
+    font-size: 17px;
+    line-height: 1.7;
+}
+.footer-about-content p {
+    font-size: 15px;
+}
+.copy-right-content p {
+    font-size: 14px;
+}
+.other-link-wrapper a {
+    font-size: 14px;
+	color: #fff;
+	text-decoration: underline;
+	transition: all 0.3s linear;
+}
+.other-link-wrapper a:hover{
+	color: #C9333D;
+	text-decoration: none;
+}
+.footer-bottom-content::before{
+	content: "";
+	position: absolute;
+	left: -50%;
+	top: 0;
+	height: 1px;
+	width: calc(100% + 5000px);
+	background-color: #444;
+	transform: translateX(-50%);
+}
+.footer-bottom-content {
+    padding: 16px 0;
+}
+/* footer section */
