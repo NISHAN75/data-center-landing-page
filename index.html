@@ -11,17 +11,19 @@
 		<link rel="stylesheet" href="assets/css/magnific-popup.css">
 		<!-- nice select css -->
 		<link rel="stylesheet" href="assets/css/nice-select.css">
+		<!-- overlay scroll css -->
+		<link rel="stylesheet" href="assets/css/overlayscrollbars.min.css">
 		<!-- style css -->
 		<link rel="stylesheet" href="assets/css/main.css">
 		<!-- responsive css -->
 		<link rel="stylesheet" href="assets/css/responsive.css">
 		<title>Data Center</title>
 	</head>
-	<body>
+	<body data-overlayscrollbars-initialize>
 
 		<!-- offcanvas -->
 
-			<div class="offcanvas offcanvas-end header-offcanvas" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+			<div class="offcanvas offcanvas-end header-offcanvas" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel" data-lenis-prevent>
 				<div class="offcanvas-header d-flex justify-content-end w-100">
 					<button type="button" class="btn-close d-flex align-items-center justify-content-center flex-column" data-bs-dismiss="offcanvas" aria-label="Close">
 						<span></span>
@@ -307,7 +309,13 @@
 			<!-- technology-comparison section -->
 
 			<!-- contact-form-section -->
-			<section class="contact-form-section">
+			<section class="contact-form-section position-relative z-3">
+				<a href="#" class="back-btn d-inline-flex justify-content-center flex-column align-items-center gap-2 top-to-button">
+					<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M36.25 30L25 15L13.75 30L36.25 30ZM1.09278e-06 25C1.696e-06 38.8 11.2 50 25 50C38.8 50 50 38.8 50 25C50 11.2 38.8 2.1187e-06 25 2.72191e-06C11.2 3.32513e-06 4.89568e-07 11.2 1.09278e-06 25ZM45 25C45 36.025 36.025 45 25 45C13.975 45 5 36.025 5 25C5 13.975 13.975 5 25 5C36.025 5 45 13.975 45 25Z" fill="white"/>
+					</svg>
+					<span>back to top</span>
+				</a>
 				<div class="container">
 					<div class="section-title-wrapper text-center mb-p">
 						<h2 class="mb-4">Design Your Solution</h2>
@@ -432,6 +440,16 @@
 		<script src="assets/js/magnific-popup.min.js"></script>
 		<!-- nice select min js -->
 		<script src="assets/js/nice-select.min.js"></script>
+		<!-- overlayscrollbars min js -->
+		<script src="assets/js/overlayscrollbars.min.js"></script>
+		<!-- scrollTrigger min js -->
+		<script src="assets/js/scrollTrigger.min.js"></script>
+		<!-- gsap min js -->
+		<script src="assets/js/gsap.min.js"></script>
+		<!-- gsap split js -->
+		<script src="assets/js/gsap-split-text.js"></script>
+		<!-- lenis min js -->
+		<script src="assets/js/lenis.min.js"></script>
 		<!-- vimeo js -->
 		<script src="https://player.vimeo.com/api/player.js"></script>
 		<!-- gsap min js -->

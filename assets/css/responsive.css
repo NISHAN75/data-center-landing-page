@@ -16,6 +16,13 @@ Version: 1.0
 
 /* min-width 1599 */
 @media (max-width: 1599px) {
+    /* product-features section */
+    .industry-product-img {
+        margin-left: -70px;
+        margin-right: -40px;
+        min-width: 700px;
+    }
+    /* product-features section */
 }
 /* min-width 1499 */
 @media (max-width: 1499px) {
@@ -33,6 +40,16 @@ Version: 1.0
         margin-left: 70px;
     }
     /* technology-comparison section */
+
+    /* product-features section */
+    .industry-product-img {
+        margin-left: -20px;
+    }
+    .product-features-area .col:nth-child(2) {
+        min-width: 700px;
+    }
+    /* product-features section */
+
 }
 /* max-width 1399 */
 @media (max-width: 1399.98px) {
@@ -50,6 +67,24 @@ Version: 1.0
         margin-left: 10px;
     }
     /* technology-comparison section */
+
+    /* contact-form-section */
+    .contact-form-section .back-btn {
+        right: 50px;
+        top: 100px;
+    }
+    /* contact-form-section */
+
+    /* product-features section */
+    .industry-product-img ,
+    .product-features-area .col:nth-child(2) {
+        min-width: 600px;
+    }
+    .product-features-area .comparison-line-item {
+        transform: skewX(-30deg) translateX(-89.42%);
+    }
+    
+    /* product-features section */
 }
 
 /* max-width 1199 */
@@ -81,6 +116,22 @@ Version: 1.0
         margin-left: 68px;
     }
     /* technology-comparison section */
+
+    /* contact-form-section */
+    .contact-form-section .back-btn {
+        right: 20px;
+        top: 50px;
+    }
+    /* contact-form-section */
+
+    /* product-features section */
+    .industry-product-img, .product-features-area .col:nth-child(2) {
+        min-width: 500px;
+    }
+    .product-features-area .comparison-line-item {
+        transform: skewX(-30deg) translateX(-91.42%);
+    }
+    /* product-features section */
 
      
 
@@ -151,15 +202,29 @@ h6{
 .technology-comparison-img-wrapper .tc-img-01, .technology-comparison-img-wrapper .tc-img-02 {
     max-width: 100%;
 }
-.contact-form-section ,
+.product-features-area,
 .technology-comparison {
     padding: 70px 0;
 }
+.contact-form-section{
+    padding: 100px 0 70px;
+}
+
 /* technology-comparison section */
 
 /* contact-form-section */
 .contact-form-info.email-input-info {
     width: auto;
+}
+.back-btn {
+    letter-spacing: 0.28px;
+}
+.back-btn svg {
+    height: 30px;
+    width: 30px;
+}
+.contact-form-section .back-btn {
+    top: 20px;
 }
 /* contact-form-section */
 
@@ -173,6 +238,31 @@ h6{
 }
 
 /* footer section  */
+
+/* product-features section */
+.industry-product-img, .product-features-area .col:nth-child(2) {
+    min-width: auto;
+}
+.product-features-area .col {
+    flex: 1 0 100%;
+}
+.product-features-area .row {
+    --bs-gutter-y: 50px;
+}
+.industry-product-img {
+    margin-left: 0;
+    margin-right: 0;
+}
+.product-features-list-wrapper ul li {
+    border-bottom: 1px solid #D6D6D6;
+    padding: 8.5px 12px 8.5px 0;
+}
+.product-features-area .comparison-line-wrapper {
+    top: 0;
+}
+/* product-features section */
+
+
 
 }
 
@@ -190,6 +280,17 @@ h2 {
 h3 {
 	font-size: 36px;
 }
+
+
+/* contact-form-section */
+.contact-form-section .back-btn {
+    right: auto;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* contact-form-section */
+
+
 }
 
 /* max-width 575 */
@@ -211,6 +312,7 @@ h3 {
     transform: skewX(-30deg) translateX(-94%);
 }
 /* comparison section */
+
 
 }
 
@@ -245,6 +347,13 @@ h3 {
 }
 /* contact-form-section */
 
+/* product-features section */
+.product-features-area .comparison-line-item {
+    transform: skewX(-30deg) translateX(-93.42%);
+}
+
+/* product-features section */
+
 
 
 
@@ -258,6 +367,11 @@ h3 {
 .data-center-section-area {
     padding: 200px 0 50px;
 }
-
+.product-features-area .comparison-line-wrapper {
+    top: -31px;
+}
+.product-features-area .comparison-line-item {
+    transform: skewX(-30deg) translateX(-94.42%);
+}
 
 }
