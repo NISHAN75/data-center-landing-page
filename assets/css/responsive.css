@@ -26,6 +26,12 @@ Version: 1.0
 }
 /* min-width 1499 */
 @media (max-width: 1499px) {
+    /* header section */
+    .header-left-content {
+        padding-left: 0;
+    }
+    /* header section */
+    
     /* comparison section */
     .comparison-line-item {
         transform: skewX(-30deg) translateX(-87%);
@@ -49,6 +55,12 @@ Version: 1.0
         min-width: 700px;
     }
     /* product-features section */
+
+    /* product-hero section */
+    .product-hero-area .left-line .comparison-line-item {
+        transform: skewX(30deg) translateX(115.25%);
+    }
+    /* product-hero section */
 
 }
 /* max-width 1399 */
@@ -85,6 +97,13 @@ Version: 1.0
     }
     
     /* product-features section */
+
+    /* product-hero section */
+    .comparison-line-wrapper.version-2 .comparison-line-item {
+        transform: skewX(30deg) translateX(-88.8%);
+    }
+
+    /* product-hero section */
 }
 
 /* max-width 1199 */
@@ -141,7 +160,21 @@ Version: 1.0
     .scroll-btn {
         bottom: 50px;
     }
+    .slider-dot-wrapper {
+        right: 2%;
+        gap: 8px;
+    }
+    .slider-dot-wrapper span {
+        width: 4px;
+        height: 40px;
+    }
     /* industry-solution section */
+
+    /* product-hero section */
+    .product-hero-area .left-line .comparison-line-item {
+        transform: skewX(30deg) translateX(111.25%);
+    }
+    /* product-hero section */
 
      
 
@@ -153,6 +186,7 @@ Version: 1.0
 
 /* max-width 991 */
 @media (max-width: 991.98px) {
+.other-page-area .product-hero-content h1,    
 .capabilities-content-wrapper h1 ,
 h1 {
 	font-size: 60px;
@@ -270,7 +304,13 @@ h6{
 .product-features-area .comparison-line-wrapper {
     top: 0;
 }
+.product-hero-area .left-line .comparison-line-item {
+    transform: skewX(30deg) translateX(106.25%);
+}
 /* product-features section */
+
+
+
 
 
 
@@ -278,6 +318,7 @@ h6{
 
 /* max-width 767 */
 @media (max-width: 767.98px) {
+.other-page-area .product-hero-content h1,    
 .capabilities-content-wrapper h1 ,
 h1 {
 	font-size: 48px;
@@ -311,6 +352,16 @@ h3 {
 }
 
 /* industry-solution section */
+
+/* product-hero section */
+.product-hero-area .comparison-line-wrapper {
+    display: none;
+}
+.other-page-area {
+    padding: 200px 0 100px;
+    min-height: auto;
+}
+/* product-hero section */
 
 
 }
